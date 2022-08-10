@@ -102,7 +102,7 @@ color: var(--active-link-color);
 /* Button */
 
 .button{
-    font-family:inherit;
+    font-family: Roboto, sans-serif;
     color: var(--primary-bg-color);
     background-color: var(--active-link-color) ;
     
@@ -110,13 +110,13 @@ color: var(--active-link-color);
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
+    border: none;
     min-width: 73px;
-     
     /* width: 216px;
     height: 50px;
     left: 692px;
     top: 430px;
-    border: none;
+    
      */
 }
 .button:hover,
@@ -179,7 +179,7 @@ footer{
 
 .address{
     color: var(--primary-bg-color);
-    font-family: 'Roboto';
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -209,11 +209,11 @@ color:var(--active-link-color);
 .button.port.active{
     background-color: var(--active-link-color);
     color: var(--primary-bg-color) ;
-    width: 73px;
+    
     height: 38px;
     left: 512px;
     top: 174px;
-    border: none;
+   
 }
 .button.port{
     color: var(--accent-color);
@@ -224,11 +224,11 @@ color:var(--active-link-color);
     background-color: var(--button-bg-color);
    
     letter-spacing: 0.03em;
-    width: 125px;
+    
     height: 38px;
     left: 593px;
     top: 174px;
-    border: none;
+    
 }
 .button.port:hover,
 .button.port:focus{
